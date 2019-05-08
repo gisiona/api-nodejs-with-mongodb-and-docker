@@ -1,0 +1,31 @@
+
+
+
+comando do docker
+#para baixar uma imagem
+docker pull nome_da_imagem
+
+
+
+#para executar uma imagem no docker
+docker run --name mongodb_curso_nodejs -p 27017:27017 -d mongo
+
+#para visualizar as imagens rodando
+docker ps
+
+#PARA VISUALIZAR TODAS AS imagens
+docker ps -a
+
+#PARA INICIAR UMA IMAGEM 
+docker start nome_da_imagem
+
+
+bibliotecas instalados:
+    express
+    nodemon
+    body-parser
+    mongoose
+    require-dir
+    mongoose-paginate
+    cors
+    
